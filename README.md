@@ -1,16 +1,66 @@
-# React + Vite
+# Wordle Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Wordle clone built with React. Guess the hidden five-letter word in six attempts. The game includes smooth animations, a virtual keyboard, responsive design, and dynamic background effects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎮 Classic Wordle gameplay
+- 🟩 Correct, present, and absent letter states
+- ⌨️ On-screen keyboard support
+- 📱 Responsive design for desktop and mobile
+- 🎨 Animated background with floating letter tiles
+- ✨ Shake animations
+- 📖 Dictionary validation for entered words
+- 🎉 Win and lose modals
+- 🔔 Toast notifications for invalid words
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- CSS3
+- Vite
+- React Hot Toast
 
-## Expanding the ESLint configuration
+## APIs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Random Word API – generates random five-letter words
+- Free Dictionary API – validates entered words
+
+## Installation
+
+```bash
+git clone https://github.com/Nazar-Galicia/React-wordle.git
+```
+
+```bash
+cd your-repository
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview
+
+```bash
+npm run preview
+```
+
+## Live Demo
+
+https://nazar-galicia.github.io/React-wordle/
+
+## Author
+
+Developed by Nazar Galicia.
