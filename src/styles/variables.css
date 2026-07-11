@@ -1,0 +1,16 @@
+:root {
+    --bg: #1f2329;
+    --surface: #2b3139;
+    --border: #4a5160;
+    --border-hover: #7c4dff;
+
+    --text: #f5f5f5;
+    --text-secondary: #9aa4b2;
+
+    --correct: #5cb85c;
+    --present: #c98d39;
+    --absent: #343a44;
+
+    --purple: #8b5cf6;
+    --shadow: rgba(139,92,246,.25);
+}

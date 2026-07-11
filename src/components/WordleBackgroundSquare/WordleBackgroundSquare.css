@@ -1,0 +1,27 @@
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.background__square {
+    --wh: 70px;
+
+    position: absolute;
+    width: var(--wh);
+    aspect-ratio: 1;
+
+    background: dodgerblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+@media (max-width: 650px) {
+    .background__square {
+        --wh: 50px;
+        font-size: 35px;
+    }
+}

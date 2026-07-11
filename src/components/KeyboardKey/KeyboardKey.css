@@ -1,0 +1,50 @@
+.keyboard__key {
+    height: clamp(42px, 8vw, 58px);
+    min-width: clamp(30px, 7vw, 44px);
+    padding: clamp(6px, 1vw, 10px) clamp(6px, 1.5vw, 12px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #3a3a3c;
+    color: #fff;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+            background-color .2s,
+            transform .08s,
+            box-shadow .2s;
+}
+
+.keyboard__key:hover {
+    background: #4b4b4d;
+}
+
+.keyboard__key:active {
+    transform: scale(.95);
+}
+
+.keyboard__key--large {
+    min-width: 72px;
+}
+
+.keyboard__key--correct {
+    background: #6aaa64;
+}
+
+.keyboard__key--present {
+    background: #c9b458;
+}
+
+.keyboard__key--absent {
+    background: #787c7e;
+}
